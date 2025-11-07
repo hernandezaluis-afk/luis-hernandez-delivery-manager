@@ -1,30 +1,25 @@
-Portafolio Profesional - Luis Antonio Hernández Acosta
+# Luis Antonio Hernández Acosta — Portfolio (EN/ES)
 
-Este proyecto es el sitio web personal de Luis Antonio Hernández Acosta, Delivery Manager especializado en Data & Analytics y Tecnología Financiera. Incluye información profesional, proyectos destacados, resultados, habilidades clave y contacto.
+Bilingual portfolio (English default) ready for GitHub Pages.
 
-Características principales
+## Quick start
 
-- Modo oscuro por defecto con alternancia a modo claro mediante toggle.
-- Diseño responsivo con menú hamburguesa y navegación fluida entre secciones.
-- Secciones profesionales completas: Home, Proyectos, Enfoque, Resultados, Testimonios, Habilidades, Contacto.
-- Botón para descargar el CV directamente.
-- Contenido redactado en estilo ejecutivo y corporativo.
-
-Instrucciones rápidas
-
-1. Descomprimir el ZIP.
-2. Entrar a la carpeta del proyecto y ejecutar:
-
+1. Unzip the project.
+2. Install dependencies:
+   ```
    npm install
+   ```
+3. Start dev server:
+   ```
    npm run dev
-
-3. Para generar la carpeta de producción (dist):
-
+   ```
+4. Build for production:
+   ```
    npm run build
-
-4. Para desplegar en GitHub Pages usando gh-pages:
-
+   ```
+5. (Optional) Deploy with `gh-pages`:
+   ```
    npm run deploy
+   ```
 
-Contacto
-hernandez.a.luis@gmail.com
+This repo is preconfigured for GitHub Pages using the Actions workflow included in `.github/workflows/deploy-pages.yml`.

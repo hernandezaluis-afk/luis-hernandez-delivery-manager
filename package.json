@@ -1,9 +1,9 @@
 {
   "name": "luis-hernandez-delivery-manager",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "homepage": "https://hernandezaluis-afk.github.io/luis-hernandez-delivery-manager",
-  "description": "Portafolio profesional de Luis Antonio Hern\u00e1ndez Acosta - Delivery Manager | Data & Analytics | Tecnolog\u00eda Financiera.",
+  "description": "Bilingual portfolio (EN/ES) of Luis Antonio Hern\u00e1ndez Acosta - Delivery Manager",
   "author": "Luis Antonio Hern\u00e1ndez Acosta",
   "scripts": {
     "dev": "vite",
@@ -16,15 +16,15 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "framer-motion": "^10.12.16",
-    "lucide-react": "^0.276.0",
-    "gh-pages": "^6.1.1"
+    "lucide-react": "^0.276.0"
   },
-    "devDependencies": {
+  "devDependencies": {
     "@vitejs/plugin-react": "^4.0.0",
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.23",
     "tailwindcss": "^3.4.13",
     "vite": "^5.2.10",
-    "patch-package": "^8.0.0"
+    "patch-package": "^8.0.0",
+    "gh-pages": "^4.0.0"
   }
 }
