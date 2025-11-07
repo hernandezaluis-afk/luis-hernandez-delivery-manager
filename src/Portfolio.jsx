@@ -239,22 +239,68 @@ export default function Portfolio() {
       </header>
 
       {/* Hero Section */}
-      <section id="home" className="flex flex-col items-center justify-center h-screen text-center px-4">
-        <motion.h2 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1 }} className="text-4xl md:text-5xl font-extrabold mb-4">
+      <section
+        id="home"
+        className="flex flex-col items-center justify-center h-screen text-center px-4"
+      >
+        {/* Imagen personal */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 1.2, ease: 'easeOut' }}
+          className="mb-6"
+        >
+          <img
+            src="./profile.jpg"
+            alt="Luis Antonio Hernández Acosta portrait"
+            className="w-36 h-36 md:w-48 md:h-48 object-cover rounded-full shadow-lg border-4 border-blue-500/30"
+          />
+        </motion.div>
+      
+        {/* Título */}
+        <motion.h2
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1 }}
+          className="text-4xl md:text-5xl font-extrabold mb-4"
+        >
           {t.heroTitle}
         </motion.h2>
-        <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.4 }} className="text-lg max-w-2xl mb-6">
+      
+        {/* Subtítulo */}
+        <motion.p
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.4 }}
+          className="text-lg max-w-2xl mb-6"
+        >
           {t.heroSubtitle}
         </motion.p>
-        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.8 }} className="flex space-x-4">
-          <a href={"./Luis-Hernandez-Resume.pdf"} download className={`${theme.button} text-white px-5 py-3 rounded-2xl shadow-md`} aria-label="download resume">
+      
+        {/* Botones */}
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.8 }}
+          className="flex space-x-4"
+        >
+          <a
+            href={"./Luis-Hernandez-Resume.pdf"}
+            download
+            className={`${theme.button} text-white px-5 py-3 rounded-2xl shadow-md`}
+            aria-label="download resume"
+          >
             {t.downloadCV}
           </a>
-          <button className="bg-gray-700 hover:bg-gray-600 text-white px-5 py-3 rounded-2xl shadow-md" onClick={() => window.open(t.contact.linkedin, '_blank')}>
+          <button
+            className="bg-gray-700 hover:bg-gray-600 text-white px-5 py-3 rounded-2xl shadow-md"
+            onClick={() => window.open(t.contact.linkedin, '_blank')}
+          >
             {t.viewLinkedIn}
           </button>
         </motion.div>
       </section>
+
 
       {/* Projects Section */}
       <section id="projects" className={`max-w-5xl mx-auto py-16 px-4 ${theme.card}`}>
