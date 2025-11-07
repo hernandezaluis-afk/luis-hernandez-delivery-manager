@@ -302,46 +302,65 @@ export default function Portfolio() {
       </section>
 
       {/* Contact Section */}
-     <section
+      <motion.section
         id="contact"
         className={`py-16 text-center ${darkMode ? 'bg-gray-900 text-white' : 'bg-gray-100 text-gray-900'}`}
+        initial={{ opacity: 0, y: 40 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, ease: "easeOut" }}
+        viewport={{ once: true }}
       >
-        <h2 className="text-3xl font-bold mb-6">
-          {lang === 'en' ? 'Contact' : 'Contacto'}
-        </h2>
-      
-        <div className="flex justify-center space-x-6 mb-6">
-          {/* Email */}
-          <a
-            href="mailto:hernandez.a.luis@gmail.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center space-x-2 hover:text-blue-500 transition"
-            title="Email"
-          >
-            <Mail size={20} />
-            <span>hernandez.a.luis@gmail.com</span>
-          </a>
-      
-          {/* LinkedIn */}
-          <a
-            href="https://www.linkedin.com/in/luis-antonio-hernandez-acosta-420531100/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center space-x-2 hover:text-blue-500 transition"
-            title="LinkedIn"
-          >
-            <Linkedin size={20} />
-            <span>{lang === 'en' ? 'LinkedIn Profile' : 'Perfil de LinkedIn'}</span>
-          </a>
-        </div>
-      
-        <p className="text-sm opacity-80">
-          {lang === 'en'
-            ? 'Based in Mexico City, available for remote collaboration worldwide.'
-            : 'Con base en Ciudad de México, disponible para colaboración remota global.'}
-        </p>
-      </section>
+      <motion.h2
+        className="text-3xl font-bold mb-6"
+        initial={{ opacity: 0, y: -20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, delay: 0.2 }}
+      >
+        {lang === 'en' ? 'Contact' : 'Contacto'}
+      </motion.h2>
+    
+      <motion.div
+        className="flex justify-center space-x-6 mb-6"
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, delay: 0.4 }}
+      >
+        {/* Email */}
+        <a
+          href="mailto:hernandez.a.luis@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center space-x-2 hover:text-blue-500 transition"
+          title="Email"
+        >
+          <Mail size={20} />
+          <span>hernandez.a.luis@gmail.com</span>
+        </a>
+    
+        {/* LinkedIn */}
+        <a
+          href="https://www.linkedin.com/in/luis-antonio-hernandez-acosta-420531100/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center space-x-2 hover:text-blue-500 transition"
+          title="LinkedIn"
+        >
+          <Linkedin size={20} />
+          <span>{lang === 'en' ? 'LinkedIn Profile' : 'Perfil de LinkedIn'}</span>
+        </a>
+      </motion.div>
+    
+      <motion.p
+        className="text-sm opacity-80"
+        initial={{ opacity: 0, y: 10 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, delay: 0.6 }}
+      >
+        {lang === 'en'
+          ? 'Based in Mexico City, available for remote collaboration worldwide.'
+          : 'Con base en Ciudad de México, disponible para colaboración remota global.'}
+      </motion.p>
+    </motion.section>
       
       {/* Footer */}
       <footer className={`py-6 text-center border-t ${darkMode ? 'border-gray-700 text-gray-500' : 'border-gray-300 text-gray-600'}`}>
