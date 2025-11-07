@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Menu, Sun, Moon } from 'lucide-react';
 import { Mail, Linkedin, Sun, Moon, Menu } from "lucide-react";
 
 const TEXT = {
