@@ -302,13 +302,47 @@ export default function Portfolio() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className={`max-w-5xl mx-auto py-16 px-4 text-center ${theme.card}`}>
-        <h3 className={`text-2xl md:text-3xl font-semibold mb-4 border-b ${theme.accent} inline-block`}>{t.contactTitle}</h3>
-        <p className="mb-2">📧 {t.contact.email}</p>
-        <p className="mb-2">📞 {t.contact.phone}</p>
-        <a href={t.contact.linkedin} target="_blank" rel="noreferrer" className="text-blue-500 hover:underline">{t.viewLinkedIn}</a>
+     <section
+        id="contact"
+        className={`py-16 text-center ${darkMode ? 'bg-gray-900 text-white' : 'bg-gray-100 text-gray-900'}`}
+      >
+        <h2 className="text-3xl font-bold mb-6">
+          {lang === 'en' ? 'Contact' : 'Contacto'}
+        </h2>
+      
+        <div className="flex justify-center space-x-6 mb-6">
+          {/* Email */}
+          <a
+            href="mailto:hernandez.a.luis@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center space-x-2 hover:text-blue-500 transition"
+            title="Email"
+          >
+            <Mail size={20} />
+            <span>hernandez.a.luis@gmail.com</span>
+          </a>
+      
+          {/* LinkedIn */}
+          <a
+            href="https://www.linkedin.com/in/luis-antonio-hernandez-acosta-420531100/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center space-x-2 hover:text-blue-500 transition"
+            title="LinkedIn"
+          >
+            <Linkedin size={20} />
+            <span>{lang === 'en' ? 'LinkedIn Profile' : 'Perfil de LinkedIn'}</span>
+          </a>
+        </div>
+      
+        <p className="text-sm opacity-80">
+          {lang === 'en'
+            ? 'Based in Mexico City, available for remote collaboration worldwide.'
+            : 'Con base en Ciudad de México, disponible para colaboración remota global.'}
+        </p>
       </section>
-
+      
       {/* Footer */}
       <footer className={`py-6 text-center border-t ${darkMode ? 'border-gray-700 text-gray-500' : 'border-gray-300 text-gray-600'}`}>
         © {new Date().getFullYear()} Luis Antonio Hernández Acosta | Delivery Manager
