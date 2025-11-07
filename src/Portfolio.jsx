@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Menu, Sun, Moon } from 'lucide-react';
+import { Mail, Linkedin, Sun, Moon, Menu } from "lucide-react";
 
 const TEXT = {
   en: {
@@ -101,7 +102,7 @@ const TEXT = {
     ],
     testimonial: {
       text: "En el rol de Delivery Manager, Luis Antonio está comprometido con el éxito de los proyectos, brindando excelente atención desde preventa hasta post-implementación. Está atento a las necesidades del cliente y del equipo, buscando soluciones ganar-ganar.",
-      author: "Víctor Barrón"
+      author: "Víctor Barrón - Project Manager en Banamex"
     },
     skills: [
       "Gestión de Proyectos",
@@ -161,6 +162,26 @@ export default function Portfolio() {
                 {item}
               </a>
             ))}
+            {/* Contact icons */}
+            <a
+              href="mailto:hernandez.a.luis@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-blue-500 transition"
+              title="Email"
+            >
+              <Mail size={18} />
+            </a>
+            
+            <a
+              href="https://www.linkedin.com/in/luis-antonio-hernandez-acosta-420531100/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-blue-500 transition"
+              title="LinkedIn"
+            >
+              <Linkedin size={18} />
+            </a>
             {/* Language toggle with flags */}
             <div className="flex items-center space-x-2 ml-3">
               <button onClick={() => switchLang('en')} aria-label="English" className={`px-2 py-1 rounded ${lang==='en' ? 'ring-2 ring-blue-400' : ''}`}>🇺🇸</button>
@@ -173,6 +194,27 @@ export default function Portfolio() {
             </button>
           </div>
           <div className="flex md:hidden items-center space-x-2">
+            {/* Contact icons mobile */}
+            <a
+              href="mailto:hernandez.a.luis@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-blue-500 transition"
+              title="Email"
+            >
+              <Mail size={18} />
+            </a>
+          
+            <a
+              href="https://www.linkedin.com/in/luis-antonio-hernandez-acosta-420531100/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-blue-500 transition"
+              title="LinkedIn"
+            >
+              <Linkedin size={18} />
+            </a>
+            
             {/* mobile language + theme */}
             <button onClick={() => switchLang('en')} aria-label="English" className={`px-2 py-1 rounded ${lang==='en' ? 'ring-2 ring-blue-400' : ''}`}>🇺🇸</button>
             <button onClick={() => switchLang('es')} aria-label="Spanish" className={`px-2 py-1 rounded ${lang==='es' ? 'ring-2 ring-blue-400' : ''}`}>🇲🇽</button>
