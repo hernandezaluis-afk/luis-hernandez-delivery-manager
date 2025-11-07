@@ -41,6 +41,17 @@ export default function Portfolio() {
                 {item}
               </a>
             ))}
+            <a href="mailto:hernandez.a.luis@gmail.com" target="_blank" rel="noreferrer" className="hover:text-blue-400">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25H4.5a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5H4.5a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-.993 1.872l-7.5 5a2.25 2.25 0 0 1-2.514 0l-7.5-5A2.25 2.25 0 0 1 2.25 6.993V6.75" />
+              </svg>
+            </a>
+            
+            <a href="https://www.linkedin.com/in/luis-antonio-hern%C3%A1ndez-acosta-420531100" target="_blank" rel="noreferrer" className="hover:text-blue-400">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M16 8a6 6 0 0 1 6 6v7.5h-4.5V14a1.5 1.5 0 0 0-3 0v7.5H10V14a6 6 0 0 1 6-6zM4.5 9h3V21h-3zM6 6a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+              </svg>
+            </a>
             <button onClick={toggleTheme} className="p-2 rounded-full hover:bg-gray-700 transition" aria-label="toggle theme">
               {darkMode ? <Sun size={18} /> : <Moon size={18} />}
             </button>
@@ -75,7 +86,7 @@ export default function Portfolio() {
           Delivery Manager con más de 15 años de experiencia en consultoría de software para los sectores bancario, seguros y fianzas. En los últimos 5 años he liderado equipos de más de 100 profesionales en proyectos estratégicos de desarrollo, migraciones tecnológicas, analítica de datos e inteligencia artificial, garantizando entregas puntuales, de alta calidad y dentro de presupuesto.
         </motion.p>
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1 }} className="flex space-x-4">
-          <a href="/Resume%20Luis%20Hernandez.pdf" download className={`${theme.button} text-white px-6 py-3 rounded-2xl shadow-md`} aria-label="Descargar CV">
+          <a href="Resume%20Luis%20Hernandez.pdf" download className={`${theme.button} text-white px-6 py-3 rounded-2xl shadow-md`} aria-label="Descargar CV">
             Descargar CV
           </a>
           <button className="bg-gray-700 hover:bg-gray-600 text-white px-6 py-3 rounded-2xl shadow-md" onClick={() => window.open('https://www.linkedin.com/in/luis-antonio-hern%C3%A1ndez-acosta-420531100', '_blank')}>
