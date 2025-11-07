@@ -5,6 +5,13 @@
 html, body, #root {
   height: 100%;
 }
+/* Estilo tipográfico global */
 body {
-  font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  @apply font-sans text-base leading-relaxed text-gray-800;
+  letter-spacing: 0.01em;
+}
+
+/* En modo oscuro */
+.dark body {
+  @apply text-gray-200;
 }
