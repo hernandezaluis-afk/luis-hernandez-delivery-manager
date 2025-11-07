@@ -145,7 +145,7 @@ export default function Portfolio() {
         <h3 className={`text-3xl font-semibold mb-6 border-b ${theme.accent} inline-block`}>Testimonios</h3>
         <blockquote className="italic border-l-4 border-blue-500 pl-4">
           “En el rol de Delivery Manager, Luis Antonio es una persona comprometida con el éxito de los proyectos, con una excelente atención desde el proceso de venta hasta el seguimiento post implementación. Está atento a las necesidades tanto del cliente como del equipo, buscando siempre soluciones y un ganar-ganar para todos los involucrados.”
-          <footer className="mt-2 font-semibold">— Víctor Barrón</footer>
+          <footer className="mt-2 font-semibold">— Víctor Barrón - Project Manager en Banamex</footer>
         </blockquote>
         <p className="mt-6 text-gray-400">*Más testimonios serán incorporados próximamente.*</p>
       </section>
