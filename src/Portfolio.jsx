@@ -32,7 +32,8 @@ const TEXT = {
         desc: "Delivered a Master Data Management solution within the client's data warehouse, designing an AWS-based architecture (Glue, Glue Catalog, IAM, CloudWatch) and integrating TIBCO catalogs. The project was delivered in phases per roadmap with sustained profitability."
       }
     ],
-    approach: "I combine Agile methodologies and scaled frameworks (SAFe, Scrum, Kanban, SDLC, Design Thinking) to secure predictable, business-aligned delivery. I monitor KPIs such as SPI, CPI, productivity and net margin, and maintain strict risk control.",
+    approach: "As a Delivery Manager, my day begins with a clear purpose: ensuring that every project under my responsibility advances toward successful completion — on time, within budget, and aligned with strategic objectives. Weekly, I review delivery plans, confirm project scopes, milestones, and timelines, and coordinate with cross-functional teams to allocate resources effectively. Throughout the day, I manage risks, and adjust plans to stay on track. My approach to project execution is based on agile frameworks such as SAFe, Scrum, and Kanban, while applying the principles of Design Thinking and the Software Development Life Cycle (SDLC) when designing and implementing solutions. These methodologies allow me to ensure alignment, adaptability, and continuous value delivery. To manage delivery operations efficiently, I rely on tools such as Jira, Confluence, and Microsoft Project for planning, tracking, and documentation, ensuring full transparency for both clients and internal teams. I also leverage collaboration platforms and performance indicators — like SPI, CPI, and productivity metrics — to maintain visibility and control across all delivery phases. Communication plays a central role in my work — keeping team members, executives, and clients aligned and engaged. Beyond processes, I act as a mentor and facilitator, providing guidance and creating an environment where teams can perform at their best. My focus is always on balance: performance, quality, and client satisfaction. At the end of each day, I review KPIs, evaluate progress, and plan next steps to ensure consistent, predictable, and measurable delivery success.
+          ",
     results: [
       "100% growth in operations from 2020 to 2024.",
       "Consistent fulfillment of gross margin targets across projects.",
@@ -42,7 +43,7 @@ const TEXT = {
     ],
     testimonial: {
       text: "In the role of Delivery Manager, Luis Antonio is fully committed to project success, providing excellent attention from pre-sales through post-implementation. He is attentive to both client and team needs, consistently seeking win-win solutions.",
-      author: "Víctor Barrón"
+      author: "Víctor Barrón - Project Manager @Banamex"
     },
     skills: [
       "Project Management",
@@ -91,7 +92,7 @@ const TEXT = {
         desc: "Entregué una solución de Master Data Management dentro del Data Warehouse del cliente, diseñando una arquitectura en AWS (Glue, Glue Catalog, IAM, CloudWatch) e integrando catálogos en TIBCO. El proyecto se entregó por fases y mantuvo rentabilidad sostenida."
       }
     ],
-    approach: "Combino metodologías ágiles y marcos escalados (SAFe, Scrum, Kanban, SDLC, Design Thinking) para asegurar entregas predecibles y alineadas al negocio. Monitoreo KPIs como SPI, CPI, productividad y margen neto, y mantengo un control riguroso de riesgos.",
+    approach: "Como Delivery Manager, comienzo el día con un objetivo claro: asegurar que cada proyecto bajo mi responsabilidad avance de manera ordenada hacia su entrega exitosa, cumpliendo los tiempos, el presupuesto y los estándares de calidad establecidos. Cada semana reviso los planes de entrega, confirmando que el alcance, los hitos y los cronogramas estén alineados con las expectativas del cliente. Coordino con los equipos multidisciplinarios la asignación de recursos y responsabilidades, y durante el día doy seguimiento al progreso, adminisstro y gestiono riesgos y realizo los ajustes necesarios para mantener el rumbo. Mi enfoque de ejecución se basa en marcos ágiles como SAFe, Scrum y Kanban, así como en los principios de Design Thinking y del Ciclo de Vida del Desarrollo de Software (SDLC). Estos enfoques me permiten mantener la alineación, la adaptabilidad y la entrega continua de valor a lo largo de cada proyecto. Para administrar las operaciones de entrega con eficiencia, utilizo herramientas como Jira, Confluence y Microsoft Project para la planeación, el seguimiento y la documentación, garantizando visibilidad y transparencia tanto para los equipos como para los clientes. Asimismo, me apoyo en indicadores de desempeño como el SPI, CPI y métricas de productividad, lo que me permite mantener un control integral sobre las diferentes fases de entrega. La comunicación es esencial: mantengo contacto constante con los equipos, ejecutivos y clientes para asegurar que todos estén informados, alineados y comprometidos. Más allá de la gestión operativa, actúo como mentor y facilitador, guiando al equipo y creando un entorno colaborativo de alto desempeño. Mi enfoque siempre busca el equilibrio entre desempeño, calidad y satisfacción del cliente. Al final del día, reviso los indicadores, evalúo avances y planifico los siguientes pasos para garantizar entregas consistentes, predecibles y con valor tangible.
     results: [
       "Crecimiento del 100% en la operación entre 2020 y 2024.",
       "Cumplimiento constante de los objetivos de margen bruto en los proyectos.",
