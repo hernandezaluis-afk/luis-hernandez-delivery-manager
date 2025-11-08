@@ -245,16 +245,18 @@ export default function Portfolio() {
       >
         {/* Imagen personal */}
         <motion.div
-          initial={{ opacity: 0, scale: 0.8 }}
+          initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1.2, ease: 'easeOut' }}
-          className="mb-6"
+          className="mb-8 relative"
         >
-          <img
-            src="./profile.jpg"
-            alt="Luis Antonio Hernández Acosta portrait"
-            className="w-36 h-36 md:w-48 md:h-48 object-cover rounded-full shadow-lg border-4 border-blue-500/30"
-          />
+          <div className="w-44 h-44 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-blue-500/30 shadow-lg bg-gray-800/20 flex items-center justify-center">
+            <img
+              src="./profile.jpg"
+              alt="Luis Antonio Hernández Acosta portrait"
+              className="object-contain w-full h-full scale-110"
+            />
+          </div>
         </motion.div>
       
         {/* Título */}
